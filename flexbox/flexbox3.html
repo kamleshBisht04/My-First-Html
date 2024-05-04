@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex-direction</title>
+
+    <style>
+       
+        .container{
+            color: white;
+            border: 5px solid yellow;
+            display:flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        .container > *{
+            flex-basis: 200px;
+        }
+        
+        .red{background-color: red;}
+        .orange{background-color: orange;}
+        .yellow{background-color: yellow;}
+        .green{background-color: green;}
+        .blue{background-color: blue;}
+        .indogo{background-color: indigo;}
+        .violet{background-color: violet;}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="red  ">Red</div>
+        <div class="orange ">orange</div>
+        <div class="yellow ">yellow</div>
+        <div class="green ">green</div>
+        <div class="blue ">Blue</div>
+        <div class="indogo ">Indogo</div>
+        <div class="violet ">Voilet</div>
+    </div>
+    
+</body>
+</html>

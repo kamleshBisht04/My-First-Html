@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Display properties</title>
+<style>
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .one{
+        height: 200px;
+        width: 200px;
+        background-color: rgb(5, 166, 241);
+        margin: 25px;
+        border: 3px solid black;
+        border-radius: 20px;
+        box-sizing: border-box;
+        text-align: center;
+        font-weight: 800;
+        
+    }
+
+    /* .third{
+        display: none;
+    } */
+.first{
+    position: static;
+}
+.second{
+    position: relative;
+    left: 100px;
+}
+.third{
+    position: absolute;
+    left: 300px;
+}
+.forth{
+    position: fixed;
+    left: 600px;
+    bottom: 500px;
+}
+
+
+
+
+
+</style>
+  </head>
+  <body>
+    <div class="first one">Static position</div>
+    <div class="second one">relative position</div>
+    <div class="third one">absolute position</div>
+    <div class="forth one">fixed position</div>
+    <div class=" one"></div>
+    <div class=" one"></div>
+    <div class=" one"></div>
+    <div class=" one"></div>
+</body>
+</html>
